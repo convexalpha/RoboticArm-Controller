@@ -14,7 +14,7 @@ The observation space consists of 33 variables corresponding to position, rotati
 :-------------------------:|:-------------------------:
 ![alt-text](assets/random_single_agent.gif)  |  ![alt-text](assets/trained_single_agent.gif)
 
-The environment is considered to be solved if the agents get an average score of +30 (over 100 consecutive episodes, and over all agents)
+The environment is a continuous action space environment. It is considered to be solved if the agents get an average score of +30 (over 100 consecutive episodes, and over all agents)
 
 ## Getting Started
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
