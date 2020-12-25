@@ -13,7 +13,7 @@ The learning algorithm used was a Deep Deterministic Policy Gradient, an off-pol
  In DDPG, the Actor directly maps states to actions (the output of the network directly the output) instead of outputting the probability distribution across a discrete action space
 
  ### Pseudo Code
- ![formula](assets/ddpg_algo)
+ ![formula](assets/ddpg_algo.png)
 
  ## Model Architecture
  ### Single Arm
@@ -50,15 +50,15 @@ The learning algorithm used was a Deep Deterministic Policy Gradient, an off-pol
   ## Result
   ### Single Arm
   The environment was solved in 124 episodes with an average score of `30.18` 
-  ![sample_gif](assets/trained_single_agent)
+  ![sample_gif](assets/trained_single_agent.gif)
   #### Reward Plot
-  ![sample_plot](assets/reward_plot_singleAgent) 
+  ![sample_plot](assets/reward_plot_singleAgent.png) 
 
   ### Multiple Arms
   The environment was solved in 81 episodes wiht an average score of `30.02`
-  ![sample_gif2](assets/trained_multiple_agents)
+  ![sample_gif2](assets/trained_multiple_agents.gif)
   #### Reward Plot
-  ![sample_plot](assets/reward_plot_multipleAgents)
+  ![sample_plot](assets/reward_plot_multipleAgents.png)
 
   ## Future Work 
   - Implementing a Rainbow DQN.
