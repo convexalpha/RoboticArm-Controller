@@ -6,6 +6,10 @@ In this environment, a double-jointed arm can move to target locations. A reward
 
 The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
 
+| Random agents for 20 arms             |  Trained agents for 20 arms |
+:-------------------------:|:-------------------------:
+![alt-text](assets/random_multiple_agents.gif)  |  ![alt-text](assets/trained_multiple_agents.gif)
+
 ## Getting Started
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
 
