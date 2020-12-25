@@ -2,7 +2,7 @@ import numpy as np
 import random
 from collections import namedtuple, deque
 
-from model import Actor, Critic
+from mode_oneArm import Actor, Critic
 
 import torch
 import torch.nn as nn

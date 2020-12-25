@@ -55,7 +55,9 @@ class Critic(nn.Module):
             hidden_layers: list of integers, the sizes of the hidden layers
                 if single int x: using [x,x]
                 otherwise, at least two elements are needed.
+        
         '''
+
         super().__init__()
         self.seed = torch.manual_seed(seed)
         # Transform single int to two-element list of hidden layers
