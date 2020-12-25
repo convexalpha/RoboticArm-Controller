@@ -65,3 +65,5 @@ The learning algorithm used was a Deep Deterministic Policy Gradient, an off-pol
   - Experiment with more Actor-Critic algorithms like D4PG, A2C, AKTR
   - Further Hyperparamter tweaking can also lead to much better performance and/or efficiency.
   
+  Author: [Vihaan Misra](http://github.com/convexalpha) 
+  
